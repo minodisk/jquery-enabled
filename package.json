@@ -1,9 +1,10 @@
 {
   "scripts"        : {
-    "test": "./node_modules/.bin/mocha && ./node_modules/.bin/testem ci"
+    "pretest": "./node_modules/.bin/bower install",
+    "test"   : "./node_modules/.bin/mocha && ./node_modules/.bin/testem ci"
   },
   "devDependencies": {
-    "brower": "~0.8",
+    "bower" : "~0.8",
     "mocha" : "~1.8",
     "chai"  : "~1.5",
     "testem": "~0.2"
