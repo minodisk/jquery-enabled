@@ -11,6 +11,6 @@
     "test/*.js"
   ],
   "launch_in_dev": [
-    "Chrome"
+    "Chrome", "Firefox", "Safari"
   ]
 }
