@@ -1,8 +1,10 @@
 {
-  "scripts": {
-    "test" : "testem"
+  "scripts"        : {
+    "test": "./node_modules/.bin/mocha && ./node_modules/.bin/testem ci"
   },
   "devDependencies": {
+    "mocha" : "~1.8",
+    "chai"  : "~1.5",
     "testem": "~0.2"
   }
 }
