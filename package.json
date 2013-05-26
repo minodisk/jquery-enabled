@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "test" : "testem"
+  },
+  "devDependencies": {
+    "testem": "~0.2"
+  }
+}
