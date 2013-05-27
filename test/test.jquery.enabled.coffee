@@ -1,3 +1,6 @@
+unless this.require?
+  chai = require 'chai'
+  $ = require 'jquery'
 {expect} = chai
 
 mouseevents = [
